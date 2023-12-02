@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url('tke-post-20230823013401-e.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.home {
+    width: 100%;
+    height: 64px;
+    background: #000000;
+    border: 1px solid #000;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.list {
+    width: 1137px;
+    height: 64px;
+    background: #fff;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.home1-bell-login ul {
+    list-style: none;
+    display: flex;
+}
+
+.home1-bell-login ul li {
+    margin: 10px;
+}
+
+.home1-bell-login ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.img img {
+    width: 162px;
+    height: 43px;
+}
+
+ul .Menu {
+    display: none;
+    /* Initially hide the submenu */
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    margin-left: -100px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+
+/* Style for the submenu items */
+
+ul .Menu li {
+    padding: 10px;
+}
+
+
+/* Style for the submenu links */
+
+.Menu a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+/* Style the submenu to be below the "Login" button */
+
+.login-menu:hover .Menu {
+    display: block;
+}
+
+.container .giaodien {
+    width: 1117px;
+    height: 764px;
+    background: #fff;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.giaodien .img img {
+    width: 120px;
+    height: 121px;
+    background: #000;
+    margin-left: 15px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.danhsach {
+    margin-left: 15px;
+    width: 500px;
+    height: 170px;
+    background: #ffffff;
+    float: left;
+}
+
+
+/* Style the container */
+
+.danhsach {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    margin: 20px;
+}
+
+
+/* Style the form-group */
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+
+/* Style the labels */
+
+.label {
+    font-weight: bold;
+}
+
+
+/* Style the spans */
+
+span.bold {
+    color: #fffefe;
+    /* Change this color to your desired text color */
+}
+
+
+/* Style the columns */
+
+.col-xs-6 {
+    width: 50%;
+    float: left;
+}
+
+
+/* Add padding to labels for better alignment */
+
+label.col-xs-6 {
+    padding: 5px;
+}
+
+
+/* Style specific elements */
+
+span[lang="sv-mssv"] {
+    color: #000;
+    font-weight: bold;
+    /* Change this color to your desired text color */
+}
+
+span[lang="sv-lophoc"] {
+    color: #000;
+    font-weight: bold;
+    /* Change this color to your desired text color */
+}
+
+span[lang="sv-hoten"] {
+    color: #000;
+    font-weight: bold;
+    /* Change this color to your desired text color */
+}
+
+span[lang="sv-khoahoc"] {
+    color: #000;
+    font-weight: bold;
+    /* Change this color to your desired text color */
+}
+
+span[lang="sv-gioitinh"] {
+    color: #000;
+    font-weight: bold;
+    /* Change this color to your desired text color */
+}
+
+span[lang="sv-hedaotao"] {
+    color: #000;
+    font-weight: bold;
+    /* Change this color to your desired text color */
+}
+
+span[lang="sv-ngaysinh"] {
+    color: #000;
+    font-weight: bold;
+    /* Change this color to your desired text color */
+}
+
+span[lang="sv-loaihinhdt"] {
+    color: #000;
+    font-weight: bold;
+    /* Change this color to your desired text color */
+}
+
+span[lang="sv-noisinh"] {
+    color: #000;
+    font-weight: bold;
+    /* Change this color to your desired text color */
+}
+
+span[lang="sv-nganh"] {
+    color: #000;
+    font-weight: bold;
+    /* Change this color to your desired text color */
+}
+
+.trucnang {
+    width: 700px;
+    height: 122px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    margin: 20px;
+    float: left;
+    margin-left: 150px;
+}
+
+.lop {
+    width: 130px;
+    height: 122px;
+    background: linear-gradient(90deg, #ff5733, #cc0023);
+    border-radius: 15px;
+    float: left;
+    margin: 5px;
+}
+
+.lop a {
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.lop i {
+    font-size: 50px;
+    margin-left: 40px;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.danhsach1 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    margin: 20px;
+}
+
+
+/* Style the table */
+
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+
+/* Style the table header */
+
+.student-table thead {
+    background-color: #333;
+    color: #fff;
+}
+
+.student-table th,
+.student-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* Alternate row background color */
+
+.student-table tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+
+/* Hover effect on table rows */
+
+.student-table tbody tr:hover {
+    background-color: #ccc;
+}
+
+
+/* Style the "Sửa" and "Xóa" links */
+
+.student-table a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.student-table a:hover {
+    text-decoration: underline;
+}
+
+
+/* Style the search bar */
+
+.search-bar {
+    text-align: right;
+    /* Align the contents to the right */
+    margin-top: 20px;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    float: left;
+}
+
+.search-bar button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    float: left;
+    /* Add some space between input and button */
+}
+
+.them {
+    text-align: right;
+    /* Align the content to the right */
+    margin-top: 20px;
+}
+
+.them button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Style the link within the button */
+
+.them button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Add more styling as needed */
+
+.them .them-form {
+    width: 450px;
+    height: 450px;
+    background: #ccc;
+}

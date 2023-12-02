@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./giaovien.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="./Logo-DH-Thanh-Do-TDU.webp">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./danhsachlop.js"></script>
+    <title>Danh Sách Sinh Viên</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="home">
+            <div class="list">
+                <div class="img">
+                    <a href="./thu_quy_dashboard.html"><img src="./tải xuống.png" alt=""></a>
+                </div>
+                <div class="home1-bell-login">
+                    <ul>
+                        <li><a href="./thu_quy_dashboard.html"><i class='bx bxs-home'></i>Trang Chủ</a></li>
+                        <li class="login-menu">
+                            <a href="#"><i class='bx bxs-user'></i>Login</a>
+                            <ul class="Menu" id="menu">
+                                <li><a href="./thu_quy_capnhatthongtin.html">Cập Nhật thông tin</a></li>
+                                <li><a href="./thu_quy_capnhatmatkhau.html">Đổi mật khẩu</a></li>
+                                <li><a href="./dangnhap.html">Đăng xuất</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="giaodien">
+                <h1 style="margin-left: 15px;">Danh Sách Sinh Viên</h1>
+                <div class="danhsach1">
+                    <form action="#">
+                        <form action="" method="post">
+                            <div class="search-bar">
+                                <input type="text" name="student_id" placeholder="Tìm Kiểm mã sinh viên" required>
+                                <button type="submit"><i class='bx bx-search-alt-2'></i></button>
+                            </div>
+                        </form>
+                        <div class="them">
+
+                        </div>
+                        <table class="student-table">
+
+                            <thead>
+                                <tr>
+                                    <th>MSV</th>
+                                    <th>Họ và tên</th>
+                                    <th>Giới tính</th>
+                                    <th>Ngày sinh</th>
+                                    <th>Nơi sinh</th>
+                                    <th>Dân tộc</th>
+                                    <th>Lớp học</th>
+                                    <th>Khóa học</th>
+                                    <th>Điện thoại</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2100535</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td><a href="./thu_quy_suadanhsachlop.html">Sửa</a> | <a href="# ">Xóa</a></td>
+                                </tr>
+                                <!-- Add more rows as needed -->
+                            </tbody>
+                        </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script>
+    // Lấy tham chiếu đến phần tử menu
+    const menu = document.getElementById("menu");
+
+    // Lấy tham chiếu đến phần tử "Login"
+    const login = document.querySelector('.login-menu');
+
+    // Thêm sự kiện click cho phần tử "Login"
+    login.addEventListener('click', () => {
+        // Kiểm tra trạng thái hiện tại của menu
+        if (menu.style.display === "block") {
+            // Nếu đang hiển thị, ẩn đi
+            menu.style.display = "none";
+        } else {
+            // Nếu đang ẩn, hiển thị
+            menu.style.display = "block";
+        }
+    });
+</script>
+
+</html>
